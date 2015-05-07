@@ -26,7 +26,21 @@
     <header id="header">
       <a href="#" class="image avatar"><img src="public/img/avatar.jpg" alt="" /></a>
       <h1><strong>Anton Buksa</strong></h1>
-        <h1>Queen's Computer Science</h1>
+        <h5>Queen's Computer Science</h5>
+            <h6><div id="changeText" ></div></h6>
+        
+        <script type="text/javascript">
+    var text = ["Student", "Investor", "Gamer", "Web Designer"];
+    var counter = 0;
+    var elem = document.getElementById("changeText");
+    setInterval(change, 2000);
+    function change() {
+     elem.innerHTML = text[counter];
+        counter++;
+        if(counter >= text.length) { counter = 0; }
+    }
+    </script>
+                
     </header>
 
   <!-- Main -->
