@@ -1240,48 +1240,22 @@
 
 /* Medium */
 
-	@include breakpoint(medium) {
+	@include breakpoint(large) {
 
-		$size-header-pad: 4em;
-
-		/* Basic */
-
-			h1, h2, h3, h4, h5, h6 {
-				br {
-					display: none;
-				}
-			}
-
-		/* List */
-
-			ul {
-				&.icons {
-					li {
-						.icon {
-							font-size: 1.25em;
-						}
-					}
-				}
-			}
+		$size-header-width: 30%;
+		$size-header-pad: 3em;
 
 		/* Header */
 
 			#header {
-				background-attachment:	scroll;
-				background-position:	top left,	center center;
-				background-size:		auto,		cover;
-				left: auto;
-				padding: ($size-header-pad * 1.5) $size-header-pad;
-				position: relative;
-				text-align: center;
-				top: auto;
-				width: 100%;
+				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+				width: $size-header-width;
 
 				h1 {
-					font-size: 1.75em;
+					font-size: 1.25em;
 
 					br {
-						display: inline;
+						display: none;
 					}
 				}
 			}
@@ -1289,32 +1263,16 @@
 		/* Footer */
 
 			#footer {
-				background-attachment:	scroll;
-				background-color:		_palette(accent2, bg);
-				background-image:		url('images/overlay.png'),		url('../../images/bg.jpg');
-				background-position:	top left,						bottom center;
-				background-repeat:		repeat,							no-repeat;
-				background-size:		auto,							cover;
-				bottom: auto;
-				left: auto;
-				padding: $size-header-pad $size-header-pad ($size-header-pad * 1.5) $size-header-pad;
-				position: relative;
-				text-align: center;
-				width: 100%;
-
-				.icons {
-					margin: 0 0 (_size(element-margin) * 0.5) 10;
-				}
+				padding: 0 $size-header-pad ($size-header-pad + _size(element-margin)) $size-header-pad;
+				width: $size-header-width;
 
 				.copyright {
-					margin: 0 0 (_size(element-margin) * 0.5) 0;
-
 					li {
-						border-left-width: 1px;
-						display: inline-block;
-						line-height: 1em;
-						margin-left: 0.75em;
-						padding-left: 0.75em;
+						border-left-width: 0;
+						display: block;
+						line-height: 2.25em;
+						margin-left: 0;
+						padding-left: 0;
 					}
 				}
 			}
@@ -1322,57 +1280,32 @@
 		/* Main */
 
 			#main {
-				margin: 0;
-				padding: ($size-header-pad * 1.5) $size-header-pad;
-				width: 100%;
+				margin-left: $size-header-width;
+				max-width: none;
+				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+				width: calc(100% - #{$size-header-width});
 			}
 
 	}
 
 /* Small */
 
-		@include breakpoint(medium) {
+	@include breakpoint(large) {
 
-		$size-header-pad: 4em;
-
-		/* Basic */
-
-			h1, h2, h3, h4, h5, h6 {
-				br {
-					display: none;
-				}
-			}
-
-		/* List */
-
-			ul {
-				&.icons {
-					li {
-						.icon {
-							font-size: 1.25em;
-						}
-					}
-				}
-			}
+		$size-header-width: 30%;
+		$size-header-pad: 3em;
 
 		/* Header */
 
 			#header {
-				background-attachment:	scroll;
-				background-position:	top left,	center center;
-				background-size:		auto,		cover;
-				left: auto;
-				padding: ($size-header-pad * 1.5) $size-header-pad;
-				position: relative;
-				text-align: center;
-				top: auto;
-				width: 100%;
+				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+				width: $size-header-width;
 
 				h1 {
-					font-size: 1.75em;
+					font-size: 1.25em;
 
 					br {
-						display: inline;
+						display: none;
 					}
 				}
 			}
@@ -1380,32 +1313,16 @@
 		/* Footer */
 
 			#footer {
-				background-attachment:	scroll;
-				background-color:		_palette(accent2, bg);
-				background-image:		url('images/overlay.png'),		url('../../images/bg.jpg');
-				background-position:	top left,						bottom center;
-				background-repeat:		repeat,							no-repeat;
-				background-size:		auto,							cover;
-				bottom: auto;
-				left: auto;
-				padding: $size-header-pad $size-header-pad ($size-header-pad * 1.5) $size-header-pad;
-				position: relative;
-				text-align: center;
-				width: 100%;
-
-				.icons {
-					margin: 0 0 (_size(element-margin) * 0.5) 10;
-				}
+				padding: 0 $size-header-pad ($size-header-pad + _size(element-margin)) $size-header-pad;
+				width: $size-header-width;
 
 				.copyright {
-					margin: 0 0 (_size(element-margin) * 0.5) 0;
-
 					li {
-						border-left-width: 1px;
-						display: inline-block;
-						line-height: 1em;
-						margin-left: 0.75em;
-						padding-left: 0.75em;
+						border-left-width: 0;
+						display: block;
+						line-height: 2.25em;
+						margin-left: 0;
+						padding-left: 0;
 					}
 				}
 			}
@@ -1413,58 +1330,47 @@
 		/* Main */
 
 			#main {
-				margin: 0;
-				padding: ($size-header-pad * 1.5) $size-header-pad;
-				width: 100%;
+				margin-left: $size-header-width;
+				max-width: none;
+				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+				width: calc(100% - #{$size-header-width});
 			}
 
 	}
 
+		/* Poptrox */
 
-/* XSmall */
+			.poptrox-popup {
+				border-radius: 0;
 
-		@include breakpoint(medium) {
-
-		$size-header-pad: 4em;
-
-		/* Basic */
-
-			h1, h2, h3, h4, h5, h6 {
-				br {
-					display: none;
-				}
-			}
-
-		/* List */
-
-			ul {
-				&.icons {
-					li {
-						.icon {
-							font-size: 1.25em;
-						}
+				.nav-next,
+				.nav-previous {
+					&:before {
+						margin-top: -1em;
 					}
 				}
 			}
 
+	}
+
+/* XSmall */
+
+	@include breakpoint(large) {
+
+		$size-header-width: 30%;
+		$size-header-pad: 3em;
+
 		/* Header */
 
 			#header {
-				background-attachment:	scroll;
-				background-position:	top left,	center center;
-				background-size:		auto,		cover;
-				left: auto;
-				padding: ($size-header-pad * 1.5) $size-header-pad;
-				position: relative;
-				text-align: center;
-				top: auto;
-				width: 100%;
+				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+				width: $size-header-width;
 
 				h1 {
-					font-size: 1.75em;
+					font-size: 1.25em;
 
 					br {
-						display: inline;
+						display: none;
 					}
 				}
 			}
@@ -1472,32 +1378,16 @@
 		/* Footer */
 
 			#footer {
-				background-attachment:	scroll;
-				background-color:		_palette(accent2, bg);
-				background-image:		url('images/overlay.png'),		url('../../images/bg.jpg');
-				background-position:	top left,						bottom center;
-				background-repeat:		repeat,							no-repeat;
-				background-size:		auto,							cover;
-				bottom: auto;
-				left: auto;
-				padding: $size-header-pad $size-header-pad ($size-header-pad * 1.5) $size-header-pad;
-				position: relative;
-				text-align: center;
-				width: 100%;
-
-				.icons {
-					margin: 0 0 (_size(element-margin) * 0.5) 10;
-				}
+				padding: 0 $size-header-pad ($size-header-pad + _size(element-margin)) $size-header-pad;
+				width: $size-header-width;
 
 				.copyright {
-					margin: 0 0 (_size(element-margin) * 0.5) 0;
-
 					li {
-						border-left-width: 1px;
-						display: inline-block;
-						line-height: 1em;
-						margin-left: 0.75em;
-						padding-left: 0.75em;
+						border-left-width: 0;
+						display: block;
+						line-height: 2.25em;
+						margin-left: 0;
+						padding-left: 0;
 					}
 				}
 			}
@@ -1505,9 +1395,10 @@
 		/* Main */
 
 			#main {
-				margin: 0;
-				padding: ($size-header-pad * 1.5) $size-header-pad;
-				width: 100%;
+				margin-left: $size-header-width;
+				max-width: none;
+				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+				width: calc(100% - #{$size-header-width});
 			}
 
 	}
