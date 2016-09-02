@@ -1,0 +1,161 @@
+name: 'BUKSA, Anton'
+meta:
+  format: FRESH@0.1.0
+  version: 0.1.0
+info:
+  label: 'Frontend Developer'
+  characterClass: ""
+  brief: 'I am a third year computer science student at Queens University and I love to make things from code!'
+  image: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALQAAAAJGMxZGFmNWU2LWYxODQtNDAzMS1iNDEwLTVmZmRiODc3MzY2Mw.jpg'
+contact:
+  website: antonbks.github.io
+  phone: 078-6819070
+  email: anton.buksa@queensu.ca
+  other: []
+location:
+  address: '100A Route D''Annecy'
+  city: Troinex
+  region: GE
+  code: '1256'
+  country: Switzerland
+social:
+  -
+    label: 'Get in Touch!'
+    network: LinkedIn
+    user: antonbks
+    url: 'https://www.linkedin.com/in/anton-buksa-78224bb2'
+employment:
+  summary: 'My current and past work experience'
+  history:
+    -
+      employer: 'JT International'
+      url: 'http://www.jti.com/'
+      position: 'HR Learning & Development Data Analyst'
+      summary: 'Excel and Python data analysis on L&D development needs feedback collected over 2016. HTML/CSS/JavaScript development for L&D SharePoint website. Research project to launch a custom JTI massive open online course/curated content platform.'
+      start: 'July 2016'
+      end: 'August 2016'
+    -
+      employer: 'AiM Services'
+      url: 'http://www.aim-services.ch/'
+      position: 'Frontend Developer'
+      summary: "[2015] Ground up development of a video sharing social network application in Swift/Objective-C with backend in Java.\nCompleted development, testing and deployment of the application to the Apple app store.\nDatabase deployment and management with Apache CouchDB.\n [2016] Developing a cross platform version of the iOS application I created the previous year using Angular2 to update design and launch on Android.\nImplementing new features for backend: XSS protection, multithreading, Spring implementation"
+      start: 'August 2015'
+      end: 'October 2016'
+    -
+      employer: 'Audiconsult SA'
+      url: 'http://www.audiconsult.ch/en/'
+      position: 'Accounting Intern'
+      summary: 'Yearly tax portfolio analysis and summary with Excel and Microsoft Access. Client correspondence and invoicing. Organizing a large-scale business trip to Moscow, Russia for a number of clients.'
+      start: 'July 2014'
+      end: 'August 2014'
+education:
+  summary: 'Current and past education'
+  level: Undegradute
+  degree: 'Bachelor of Computer Science'
+  history:
+    -
+      institution: 'Queens University'
+      url: www.queensu.ca/
+      start: 'September 2014'
+      end: Present
+      summary: 'Undergraduate Program'
+    -
+      institution: 'Upper Canada College'
+      url: 'http://www.ucc.on.ca/'
+      start: 'September 2010'
+      end: 'May 2014'
+      summary: 'High School (Boarding School)'
+      curriculum:
+        - 'HL English'
+        - 'HL Economics'
+        - 'HL Art'
+        - 'SL Physics'
+        - 'SL Math'
+        - 'SL French'
+service:
+  summary: Extra-Cirriculars
+  history:
+    -
+      flavor: Conference
+      position: 'Stage Manager'
+      start: 'September 2014'
+      end: Present
+      organization: TEDxQueensU
+      summary: 'Largest student-led conference at Queen''s'
+    -
+      flavor: Non-Profit
+      position: Member
+      start: 'September 2014'
+      end: Present
+      organization: 'CodeTheChange Queens Chapter'
+      summary: 'Coding club developing open source software to aid non-profits'
+    -
+      flavor: Non-Profit
+      position: Tutor
+      start: 'September 2010'
+      end: 'May 2014'
+      organization: 'Horizons Arts Tutoring Program UCC'
+      summary: 'Peer-tutoring program with Toronto inner city schools'
+    -
+      flavor: Non-Profit
+      position: Member
+      start: 'September 2010'
+      end: 'May 2014'
+      organization: 'UNICEF Club UCC'
+      summary: 'Coordinating and volunteering in UCC fundraising events, all profits going to UNICEF'
+    -
+      flavor: 'School Related'
+      position: Ambassador
+      start: 'September 2010'
+      end: 'May 2014'
+      organization: 'Boarding Ambassador Program at UCC'
+      summary: 'International representitive and tour guide for boarding program'
+    -
+      flavor: Sports
+      start: 'September 2010'
+      end: 'May 2014'
+      position: 'Varsity Lacrosse (Co-Captain) and Cross Country'
+      organization: UCC
+skills:
+  sets:
+    -
+      name: 'Computer Skills'
+      level: Advanced
+      skills:
+        - 'Microsoft Office Suite'
+        - 'Adobe Suite'
+        - Bash
+        - 'Swift and Objective-C'
+        - HTML5/CSS(Sass)
+        - 'Javascript(JQuery, Angularjs, Threejs)'
+        - Typescript
+        - Python
+    -
+      name: ""
+      level: Intermediate
+      skills:
+        - Java
+        - Ruby
+        - 'Ruby on Rails'
+        - PHP
+    -
+      name: ""
+      level: Basic
+      skills:
+        - C
+        - 'C#'
+        - Scala
+  list: []
+languages:
+  -
+    language: Russian
+    level: Mothertongue
+    years: 20
+  -
+    language: English
+    level: 'Professionally Fluent'
+    years: 15
+  -
+    language: French
+    level: 'Professionally Fluent'
+    years: 7
